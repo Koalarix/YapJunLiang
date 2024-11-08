@@ -59,6 +59,11 @@ th, td {
     text-align: left;
 }
 
+.tablehead {
+    background-color: #bdbdbd;
+}
+
+
 a {
     color: #0079c1;
     text-decoration: none;
