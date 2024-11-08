@@ -30,14 +30,17 @@ h1 {
     padding: 0.5em;
 }
 
+
 h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin-top: 1em;
 }
 
+
 p {
-    font-size: 1em;
+    font-size: 1.18em;
 }
+
 
 #logo {
     /*border: 2px solid black;*/
@@ -45,18 +48,36 @@ p {
     margin-bottom: 1em;
 }
 
+
 table {
     border-collapse: collapse;
-    border: 1px solid rgb(167, 167, 167);
+    border: 1px solid #ddd;
     table-layout: fixed;
     width: 100%;
 }
 
-th {
-    
+
+th, td {
+    padding: 6px;
+    text-align: left;
+}
+
+a {
+    color: #0079c1;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #93d0f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
 
 }
 
-td {
-    padding: 6px;
+footer p {
+    color: white;
+
 }
