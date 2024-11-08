@@ -1,0 +1,62 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Add in your own customisations */
+
+header {
+    background-color: #93d0f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: white;
+    /*border: 2px solid red;*/
+    font-size: 1.25em;
+    padding: 0.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+#logo {
+    /*border: 2px solid black;*/
+    max-width: 14em;
+    margin-bottom: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(167, 167, 167);
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    
+
+}
+
+td {
+    padding: 6px;
+}
