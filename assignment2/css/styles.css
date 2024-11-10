@@ -55,11 +55,11 @@ table {
 
 
 th, td {
-    padding: 6px;
+    padding: 10px;
     text-align: left;
 }
 
-.tablehead {
+th {
     background-color: #bdbdbd;
 }
 
