@@ -5,31 +5,37 @@ Question 1:
 // p.then(message => console.log(message));
 
 Question 2:
-// Your code here
+// p.catch((error) => {console.log(error)});
 
 Question 3:
-// Your code here
+// p.then((userInfo) => {console.log(userInfo)});
 
 Question 4:
-// Your code here
+// p.then((userInfo) => { console.log(userInfo.name) });
 
 Question 5:
-// Your code here
+// p.catch((error) => {console.log(error)});
 
 Question 6:
-// Your code here
+// p.finally(console.log("Promise settled"));
 
 Question 7:
-// Your code here
+// p.then((value) => {console.log(value*2)});
 
 Question 8:
-// Your code here
+// p.catch((error) => {console.log(0)});
 
 Question 9:
-// Your code here
+// Promise.all(promises).then((values) => {console.log(values);});
 
 Question 10:
-// Your code here
+// Promise.race(promises).then((fastest) => {console.log(fastest);});
 
 Bonus Question:
-// Your code here
+// p.then((text) =>{
+    new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(`Hello ${text}`)
+        }, 1000)
+    })
+});
