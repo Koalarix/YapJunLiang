@@ -12,7 +12,8 @@ function BlogPost(props) {
 
 function PublicBlogPost({data}) {
  return (
-  <BlogPost 
+  <BlogPost
+    key={data.author} 
     title={data.title}
     author={data.author}
     date={data.date}
@@ -23,7 +24,8 @@ function PublicBlogPost({data}) {
 
 function PrivateBlogPost({data}) {
   return (   
-    <BlogPost 
+    <BlogPost
+     key={data.author} 
      title={data.title} 
      author={data.author}
      date={data.date} 
